@@ -1,0 +1,83 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;  
+}
+header{
+    min-height: 100vh;
+    background: url(../foods/images/fruits1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    
+    font-size: 25px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: orange;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+hr{
+   
+    width: 100px;
+    margin-top: -5px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px rgb(3, 3, 3);
+    background-color:rgb(3, 3, 3); ;
+}
+.hr1{
+   
+    width: 650px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px rgb(3, 3, 3);
+    background-color:rgb(3, 3, 3); ;
+}
+ label{
+    margin-bottom: 7px;
+ }
+
+ input[type=email] ,select,textarea{
+    margin-bottom: 7px;
+    width: 100%;
+    padding: 5px;
+    border:solid 1px #ddd;
+    border-radius: 5px;
+
+
+ }
+  
+
+ button{
+    padding: 15px 15px;
+    background-color: cornflowerblue;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: solid#333 1px;
+
+ }
+
+ footer{
+    padding: 40px 0px;
+    background-color: #333;
+    color: #ddd;
+ }
+ footer p{
+    text-align: center;
+ }
